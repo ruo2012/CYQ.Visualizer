@@ -1,0 +1,15 @@
+
+
+3：如何部署：可视化调试工具（Microsoft.VisualStudio.DebuggerVisualizers）
+
+ 一句话，把那个Xxx.dll放到以下目录：VS安装目录\Microsoft Visual Studio XXX\Common7\Packages\Debugger\Visualizers
+
+ 然后就自动生效了，当你调试时，会被加载，进而呈现你的那个效果。
+
+4：源码下载及说明
+
+ 对于不同的VS（2005、2008、2012、2015），你需要编绎不同的版本，
+ 主要是引用的：Microsoft.VisualStudio.DebuggerVisualizers 这个版本不一样。
+ 安装目录\Microsoft Visual Studio N版本号\Common7\IDE\PublicAssemblies\Microsoft.VisualStudio.DebuggerVisualizers.dl
+
+详情文章：http://www.cnblogs.com/cyq1162/p/4551652.html
