@@ -44,6 +44,7 @@ namespace CYQ.VisualierSetup
                 dic.Add("Microsoft Visual Studio 12.0", "2013");
                 dic.Add("Microsoft Visual Studio 14", "2015");
                 dic.Add("Microsoft Visual Studio 14.0", "2015");
+                dic.Add("Microsoft Visual Studio 2017\\Community", "2017");
                 //读取VS安装路径
                 string vPath = "\\Common7\\Packages\\Debugger\\Visualizers";
                 string mPath = "\\VC#\\Snippets\\2052\\Visual C#";
